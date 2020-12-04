@@ -73,7 +73,7 @@ ComplexNumber complexPow(const ComplexNumber basis, int exponent);
 /**
  * @param number комплексное число.
  * @param n степень корня.
- * @return Возвращает корней n-степени из number.
+ * @return Возвращает массив корней n-степени из number.
 */
 ComplexNumber* complexRoot(const ComplexNumber number, const size_t n);
 
